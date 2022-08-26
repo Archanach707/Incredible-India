@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Font Awesome File -->
+  <link rel="stylesheet" href="./assets/css/fontawesome-free-5.7.0-web/css/all.min.css" />
   <!-- Font Family -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
@@ -17,13 +19,13 @@
   <!-- Header -->
   <nav id="header" class="navbar navbar-expand-lg navbar-light header">
     <div class="container-fluid">
-      <a id="logo" class="navbar-brand" href="#">Holiday</a>
+      <a id="logo" class="navbar-brand" href="#"><i class="logo-icons fas fa-home"></i>Holiday</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
           <li class="nav-item">
             <a id="navigation-link" class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -65,26 +67,95 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/img/banner/bg-1.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/img/banner/bg-4.jpg" class="d-block w-100" alt="...">
+        <div class="banner-content carousel-caption d-none d-md-block">
+         <h5 class="banner-heading">Incredible</h5>
+          <p>India</p>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/banner/bg-2.jpg" class="d-block w-100" alt="...">
+        <div class="banner-content carousel-caption d-none d-md-block">
+          <h5 class="banner-heading">Find the best place</h5>
+          <p>For you hoidays</p>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/banner/bg-3.jpg" class="d-block w-100" alt="...">
+        <div class="banner-content carousel-caption d-none d-md-block">
+          <h5 class="banner-heading">World famouse india Tours</h5>
+          <p>Wonderfull Destination</p>
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span aria-hidden="true"><i class="logo-icons fas fa-arrow-left"></i></span>
       <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span aria-hidden="true"><i class="logo-icons fas fa-arrow-right"></i></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
 
-
+  <!-- gray bg -->	
+  <section class="container" id="more">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="register-in-out">
+          <div class="register-btn mb-3">
+            <ul class="register-btn-list">
+              <li class="list-item">hotel</li>
+              <li class="list-item">car rental</li>
+            </ul>
+          </div>
+          <div>
+            <!-- Selection Option -->
+            <div class="form-group mb-3">
+              <select class="form-select">
+                <option selected> -- Select Hotel -- </option>
+                <option value="shangrila">Shangri-La</option>
+                <option value="chatrium">Chatrium</option>
+                <option value="fourseasons">Four Seasons</option>
+                <option value="hilton">Hilton</option>
+              </select>
+            </div>
+            <!-- Date -->
+            <div class="form-group mb-3">
+              <div class="input-group date" id="datetimepicker1">
+                <input type="date" class="form-control" placeholder="Check-in Date">
+                <!-- <span class="input-group-text date">
+                  <span class="fa fa-calendar" ></span>
+                </span> -->
+              </div>
+            </div>
+            <div class="form-group mb-3">
+              <div class="input-group date" id="datetimepicker1">
+                <input type="date" class="form-control" placeholder="Check-in Date">
+              </div>
+            </div>
+            <!-- Guests Option -->
+            <div class="form-group mb-3">
+              <select class="form-select">
+                <option selected> -- Guests -- </option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5+">5+</option>
+              </select>
+            </div>
+            <!-- Check Now -->
+            <div class="check-now-btn">
+              <p type="button">Check Now</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6"></div>
+      <div class="col-lg-4 col-md-4 col-sm-6"></div>
+    </div>
+  </section>
 
 
 
