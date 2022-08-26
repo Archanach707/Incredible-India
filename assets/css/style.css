@@ -123,3 +123,33 @@ ul {
   text-decoration-line: none;
   color: #000;
 }
+
+/* way-to-india */
+.way-to-india {
+  position: relative;
+}
+
+.sub-heading {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sub-heading-design {
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+
+.sub-heading-design-right {
+  position: absolute;
+  top: 12%;
+  right: 20%;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+
