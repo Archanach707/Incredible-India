@@ -211,6 +211,21 @@ ul {
   background: #fff;
 }
 
+.nav-pills .nav-link {
+  color: #112031;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #112031;
+}
+
+#pills-tab {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ebb433;
+}
 .dates {
   display: flex;
   justify-content: space-between;

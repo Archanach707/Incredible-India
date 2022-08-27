@@ -118,169 +118,96 @@
     </button>
   </div>
 
-  <!-- gray bg -->	
+  <!-- Registration Form -->
   <section id="gallary" class="pt-5 pb-5">
     <div class="container-fluid">
-      <div class="row" id="innerSection">
-        <!-- <div class="col-lg-4 col-md-4 col-sm-6">
-          <div class="tm-home-box-1">
-            <ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
-                <li role="presentation" class="active">
-                  <a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
-                </li>
-                <li role="presentation">
-                  <a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
-                </li>
-            </ul>
-  
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade in tm-white-bg active" id="hotel">
-                <div class="tm-search-box effect2">
-                  <form action="#" method="post" class="hotel-search-form">
-                    <div class="tm-form-inner">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="">-- Select Hotel -- </option>
-                          <option value="shangrila">Shangri-La</option>
-                          <option value="chatrium">Chatrium</option>
-                          <option value="fourseasons">Four Seasons</option>
-                          <option value="hilton">Hilton</option>
-                        </select> 
-                      </div>
-                      <div class="form-group">
-                        <div class='input-group date' id='datetimepicker1'>
-                          <input type='text' class="form-control" placeholder="Check-in Date" />
-                          <span class="input-group-addon">
-                              <span class="fa fa-calendar"></span>
-                          </span>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <div class='input-group date' id='datetimepicker2'>
-                            <input type='text' class="form-control" placeholder="Check-out Date" />
-                            <span class="input-group-addon">
-                                <span class="fa fa-calendar"></span>
-                            </span>
-                        </div>
-                      </div>
-                      <div class="form-group margin-bottom-0">
-                        <select class="form-control">
-                          <option value="">-- Guests -- </option>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                          <option value="5p">5+</option>
-                        </select> 
-                      </div>
-                    </div>							
-                    <div class="form-group tm-yellow-gradient-bg text-center">
-                      <button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-                    </div>  
-                  </form>
-                </div>  
-              </div>
-            </div>
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane fade in tm-white-bg" id="car">
-                <div class="tm-search-box effect2">
-                  <form action="#" method="post" class="hotel-search-form">
-                    <div class="tm-form-inner">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="">-- Select Model -- </option>
-                          <option value="shangrila">BMW</option>
-                          <option value="chatrium">Mercedes-Benz</option>
-                          <option value="fourseasons">Toyota</option>
-                          <option value="hilton">Honda</option>
-                        </select> 
-                      </div>
-                      <div class="form-group">
-                          <div class='input-group date-time' id='datetimepicker3'>
-                              <input type='text' class="form-control" placeholder="Pickup Date" />
-                              <span class="input-group-addon">
-                                  <span class="fa fa-calendar"></span>
-                              </span>
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          <div class='input-group date-time' id='datetimepicker4'>
-                              <input type='text' class="form-control" placeholder="Return Date" />
-                              <span class="input-group-addon">
-                                  <span class="fa fa-calendar"></span>
-                              </span>
-                          </div>
-                      </div>
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="">-- Options -- </option>
-                          <option value="">Child Seat</option>
-                          <option value="">GPS Navigator</option>
-                          <option value="">Insurance</option>
-                        </select> 
-                      </div>							           
-                    </div>							
-                    <div class="form-group tm-yellow-gradient-bg text-center">
-                      <button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-                    </div>  
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>								
-        </div> -->
+      <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <div class="register-in-out">
-            <div class="register-btn">
-              <ul class="register-btn-list" role="tablist" id="hotelCartabs">
-                <li class="list-item">
-                  <a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
-                </li>
-                <li class="list-item">
-                  <a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
-                </li>
-              </ul>
-            </div>
-            <div class="register-check-out-form">
-              <!-- Selection Option -->
-              <div class="form-group mb-3">
-                <select class="form-select">
-                  <option selected> -- Select Hotel -- </option>
-                  <option value="shangrila">Shangri-La</option>
-                  <option value="chatrium">Chatrium</option>
-                  <option value="fourseasons">Four Seasons</option>
-                  <option value="hilton">Hilton</option>
-                </select>
-              </div>
-              <form>
-                <!-- Date Check In -->
-                <div class="form-group mb-3">
-                  <label class="dates">Check-in-Date :
-                    <input type="date" name="bday">
-                  </label>
-                </div>
-                <!-- Date Check Out -->
-                <div class="form-group mb-3">
-                  <label class="dates">Check-out-Date :
-                    <input type="date" name="bday">
-                  </label>
-                </div>
-                <!-- Guests Option -->
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="register-check-out-form">
                 <div class="form-group mb-3">
                   <select class="form-select">
-                    <option selected> -- Guests -- </option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5+">5+</option>
+                    <option selected> -- Select Hotel -- </option>
+                    <option value="shangrila">Shangri-La</option>
+                    <option value="chatrium">Chatrium</option>
+                    <option value="hilton">Hilton</option>
+                    <option value="fourseasons">Four Seasons</option>
                   </select>
                 </div>
-                <!-- Check Now -->
-                <p class="check-now">
-                  <button class="form-btn">Submit</button>
-                </p>
-              </form>
+                <form>
+                  <div class="form-group mb-3">
+                    <label class="dates">Check-in-Date :
+                      <input type="date" name="bday">
+                    </label>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="dates">Check-out-Date :
+                      <input type="date" name="bday">
+                    </label>
+                  </div>
+                  <div class="form-group mb-3">
+                    <select class="form-select">
+                      <option selected> -- Options -- </option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5+">5+</option>
+                    </select>
+                  </div>
+                  <p class="check-now">
+                    <button class="form-btn">Submit</button>
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="register-check-out-form">
+                <div class="form-group mb-3">
+                  <select class="form-select">
+                    <option selected> -- Select Modal -- </option>
+                    <option value="shangrila">BMW</option>
+                    <option value="chatrium">Mersediz</option>
+                    <option value="fourseasons">TOyota</option>
+                    <option value="hilton">Honda</option>
+                    <option value="inova">Inova</option>
+                  </select>
+                </div>
+                <form>
+                  <div class="form-group mb-3">
+                    <label class="dates">Check-in-Date :
+                      <input type="date" name="bday">
+                    </label>
+                  </div>
+                  <div class="form-group mb-3">
+                    <label class="dates">Check-out-Date :
+                      <input type="date" name="bday">
+                    </label>
+                  </div>
+                  <div class="form-group mb-3">
+                    <select class="form-select">
+                      <option selected> -- Options -- </option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5+">5+</option>
+                    </select>
+                  </div>
+                  <p class="check-now">
+                    <button class="form-btn">Submit</button>
+                  </p>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -315,7 +242,6 @@
       </div>
     </div>
   </section>
-  
 
   <!-- WAY TO HEAVEN IN INDIA -->
   <section class="way-to-india pt-5">
