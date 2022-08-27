@@ -20,6 +20,10 @@ ul {
   font-family: 'Ubuntu', sans-serif;
 }
 
+.navbar-light .navbar-brand {
+  color: #112031;
+}
+
 #logo {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
@@ -34,6 +38,10 @@ ul {
   padding-right: 8px;
   line-height: 1.5;
   font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #112031;
 }
 
 #navigation-link {
@@ -123,7 +131,7 @@ ul {
   display: flex;
   justify-content: space-between;
   text-decoration-line: none;
-  color: #000;
+  color: #112031;
 }
 
 /* way-to-india */
@@ -143,7 +151,7 @@ ul {
   left: 20%;
   width: 100px;
   height: 2px;
-  background-color: black;
+  background-color: #112031;
 }
 
 .sub-heading-design-right {
@@ -152,6 +160,22 @@ ul {
   right: 20%;
   width: 100px;
   height: 2px;
-  background-color: black;
+  background-color: #112031;
+}
+
+/* Sub Footer */
+.sub-footer {
+  background-color: #112031;
+  text-align: center;
+}
+
+.sub-footer-line {
+  color: #ffff;
+}
+
+.sub-footer-link {
+  color: #FFB200;
+  font-weight: bold;
+  text-decoration-line: none;
 }
 
