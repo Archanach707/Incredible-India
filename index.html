@@ -121,7 +121,7 @@
   <!-- gray bg -->	
   <section id="gallary" class="pt-5 pb-5">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="innerSection">
         <!-- <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="tm-home-box-1">
             <ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
@@ -230,7 +230,7 @@
           </div>								
         </div> -->
         <div class="col-lg-4 col-md-4 col-sm-6">
-          <div class="register-in-out"  id="innerGallery">
+          <div class="register-in-out">
             <div class="register-btn">
               <ul class="register-btn-list" role="tablist" id="hotelCartabs">
                 <li class="list-item">
@@ -252,33 +252,35 @@
                   <option value="hilton">Hilton</option>
                 </select>
               </div>
-              <!-- Date Check In -->
-              <div class="form-group mb-3">
-                <div class="input-group date" id="datetimepicker1">
-                  <input type="date" class="form-control" placeholder="Check-in Date">
+              <form>
+                <!-- Date Check In -->
+                <div class="form-group mb-3">
+                  <label class="dates">Check-in-Date :
+                    <input type="date" name="bday">
+                  </label>
                 </div>
-              </div>
-              <!-- Date Check Out -->
-              <div class="form-group mb-3">
-                <div class="input-group date" id="datetimepicker1">
-                  <input type="date" class="form-control" placeholder="Check-in Date">
+                <!-- Date Check Out -->
+                <div class="form-group mb-3">
+                  <label class="dates">Check-out-Date :
+                    <input type="date" name="bday">
+                  </label>
                 </div>
-              </div>
-              <!-- Guests Option -->
-              <div class="form-group mb-3">
-                <select class="form-select">
-                  <option selected> -- Guests -- </option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5+">5+</option>
-                </select>
-              </div>
-              <!-- Check Now -->
-              <div class="check-now-btn">
-                <p type="button">Check Now</p>
-              </div>
+                <!-- Guests Option -->
+                <div class="form-group mb-3">
+                  <select class="form-select">
+                    <option selected> -- Guests -- </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5+">5+</option>
+                  </select>
+                </div>
+                <!-- Check Now -->
+                <p class="check-now">
+                  <button class="form-btn">Submit</button>
+                </p>
+              </form>
             </div>
           </div>
         </div>

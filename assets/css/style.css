@@ -150,12 +150,13 @@ ul {
 /* Registration Form */
 #gallary {
   background-color: #f4f4f4;
-  /* position: relative; */
 }
 
-/* #innerGallery{
+/* #innerSection {
   position: absolute;
-  top: -12%;
+  top: -50px;
+  right: 5%;
+  left: 5%;
 } */
 
 .register-in-out {
@@ -182,7 +183,7 @@ ul {
   padding: 20px;
 }
 
-.check-now-btn {
+.check-now {
   background-color: #FFB200;
   padding: 20px;
   text-align: center;
@@ -190,11 +191,29 @@ ul {
   font-weight: bold;
 }
 
+.form-btn {
+  background-color: #112031;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #FFB200;
+  border: none;
+}
+
+.form-btn:hover {
+  color: #fff;
+}
+
 /* register-check-out-form */
 .register-check-out-form {
   margin: 0 20px 20px 20px;
   padding: 20px;
   background: #fff;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Places */
@@ -206,7 +225,7 @@ ul {
 }
 
 .place-image {
-  height: 250px;
+  height: 300px;
 }
 
 .place-link {
