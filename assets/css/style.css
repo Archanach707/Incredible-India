@@ -244,10 +244,6 @@ ul {
   padding: 25px;
 }
 
-.place-image {
-  height: 300px;
-}
-
 .place-link {
   display: flex;
   justify-content: space-between;
