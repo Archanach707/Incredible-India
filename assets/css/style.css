@@ -205,10 +205,11 @@ ul {
 }
 
 /* register-check-out-form */
-.register-check-out-form {
+.inner-check-in-out-form {
   margin: 0 20px 20px 20px;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   background: #fff;
+  /* border-radius: 10px; */
 }
 
 .nav-pills .nav-link {
@@ -219,6 +220,10 @@ ul {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   background-color: #112031;
+}
+
+.nav-link.nav-link-button {
+  padding: 0.5rem 3.5rem;
 }
 
 #pills-tab {
