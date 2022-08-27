@@ -94,6 +94,14 @@ ul {
   font-weight: bold;
 }
 
+.carousel-icons {
+  font-size: 3rem;
+  color: #FFB200;
+}
+
+.carousel-icons:hover {
+  color: #ebb433;
+}
 /* Registration Form */
 /* #gallary {
   position: relative;
@@ -144,7 +152,7 @@ ul {
 }
 
 .place-image {
-  height: 320px;
+  height: 250px;
 }
 
 .place-link {
