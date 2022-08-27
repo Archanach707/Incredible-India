@@ -18,6 +18,8 @@ ul {
 #header {
   background-color: #FFB200;
   font-family: 'Ubuntu', sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar-light .navbar-brand {
@@ -29,15 +31,23 @@ ul {
   font-weight: bold;
   font-size: 3rem;
   letter-spacing: 1.5px;
-  line-height: 1.5;
+  line-height: 1.2;
   margin-right: 15px;
   margin-left: 15px;
 }
 
 .logo-icons {
+  font-size: 50px;
+}
+
+.likes-icons {
+  font-size: 20px;
+}
+
+.logo-icons, 
+.likes-icons {
   padding-right: 8px;
   line-height: 1.5;
-  font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
