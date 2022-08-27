@@ -13,6 +13,51 @@ ul {
 }
 
 
+/* Top header section */
+.top-header {
+  background-color: #112031;
+  padding: 5px;
+  color: #ffff  ;
+}
+
+.personal-details {}
+
+.personal-details-link {
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration-line: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Social Icons */
+.social-icons {
+  text-align: right;
+}
+
+.personal-details-link:hover {
+  color: #ebb433;
+}
+
+.personal-icons {
+  color: #FFB200;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.personal-icons {
+  margin: 0 8px 0 8px;
+}
+
+.personal-icons-list {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 5px 0 5px;
+  color: #FFB200;
+}
+.personal-icons-list:hover {
+  color: #fff;
+}
 
 /* Header Section */
 #header {
@@ -39,6 +84,7 @@ ul {
   line-height: 1.2;
   margin-right: 15px;
   margin-left: 15px;
+  display: block;
 }
 
 .logo-icons {
@@ -52,7 +98,6 @@ ul {
 .logo-icons, 
 .likes-icons {
   padding-right: 8px;
-  line-height: 1.5;
 }
 
 #navbarSupportedContent {
