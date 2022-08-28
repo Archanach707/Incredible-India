@@ -149,15 +149,8 @@ ul {
 }
 /* Registration Form */
 #gallary {
-  background-color: #f4f4f4;
+  background-color: #ececec;
 }
-
-/* #innerSection {
-  position: absolute;
-  top: -50px;
-  right: 5%;
-  left: 5%;
-} */
 
 .register-in-out {
   background-color: #f4f4f4;
@@ -251,9 +244,21 @@ ul {
   color: #112031;
 }
 
+.place-link:hover {
+  color: #fff;
+}
+
 /* way-to-india */
 .way-to-india {
   position: relative;
+}
+
+/* .populer-packages {
+  background-color: #ececec;
+} */
+
+.card.place-img {
+  margin-top: 30px;
 }
 
 .sub-heading {
@@ -280,6 +285,24 @@ ul {
   background-color: #112031;
 }
 
+/* package-img */
+.inner-package, .package-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text.explor-date {
+  color: #112031;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.explor-date-text {
+  color: #fff;
+  font-size: 1rem;
+}
+
 /* Sub Footer */
 .sub-footer {
   background-color: #112031;
@@ -296,3 +319,13 @@ ul {
   text-decoration-line: none;
 }
 
+.heading-border {
+  position: relative;
+}
+
+.border-img {
+  position: absolute;
+  top: -40px;
+  left: 36%;
+  height: 39px;
+}
