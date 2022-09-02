@@ -332,3 +332,7 @@ ul {
   left: 36%;
   height: 39px;
 }
+
+.form-control:focus {
+  box-shadow: none;
+}
