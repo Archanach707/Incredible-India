@@ -103,6 +103,7 @@ ul {
 #navbarSupportedContent {
   margin-top: 0;                
   margin-bottom: 0;
+  justify-content: end;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
@@ -268,11 +269,6 @@ ul {
   position: relative;
 }
 
-
-/* .card.place-img {
-  margin-top: 30px;
-} */
-
 .sub-heading {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -360,4 +356,22 @@ ul {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+}
+
+
+
+/* Media Queary */
+@media (min-width: 1023px) {
+  #navigation-link {
+    letter-spacing: 1.5px;
+    padding: 25px 20px 25px 20px;
+    font-weight: bold;
+  }
+}
+
+
+@media (min-width: 991px) {
+  #navigation-link {
+    padding: 25px 12px 25px 12px;
+  }
 }
