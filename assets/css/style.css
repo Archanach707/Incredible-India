@@ -338,8 +338,8 @@ ul {
 
 .border-img {
   position: absolute;
-  top: -40px;
-  left: 36%;
+  top: -48px;
+  /* left: 36%; */
   height: 39px;
 }
 
@@ -367,21 +367,25 @@ ul {
   }
 }
 
-
 @media (min-width: 991px) {
   #navigation-link {
     padding: 25px 12px 25px 12px;
+  }
+
+  .border-img {
+    left: 32%;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  #topHeader {
+    display: none;
   }
 }
 
 @media (min-width: 320px) {
   #navigation-link {
     padding: 8px 20px 8px 20px;
-  }
-}
-
-@media (max-width: 576) {
-  #topHeader {
-    display: none;
   }
 }
