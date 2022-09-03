@@ -148,9 +148,6 @@ ul {
   color: #ebb433;
 }
 
-.banner-img {
-  height: 480px;
-}
 /* Registration Form */
 #gallary {
   background-color: #ececec;
@@ -158,7 +155,6 @@ ul {
 
 .register-in-out {
   background-color: #f4f4f4;
-  /* padding: 15px; */
 }
 
 .register-btn {
@@ -362,18 +358,23 @@ ul {
 
 /* Media Queary */
 @media (min-width: 1023px) {
-  #navigation-link {
-    padding: 25px 20px 25px 20px;
-  }
+
 }
 
-@media (min-width: 991px) {
-  #navigation-link {
-    padding: 25px 12px 25px 12px;
-  }
+@media (min-width: 992px) {
 
-  .border-img {
+  /* .border-img {
     left: 32%;
+  } */
+  
+  /* .banner-img {
+    height: 480px;
+  } */
+}
+
+@media (min-width: 768px) {
+  .banner-img {
+    height: 480px;
   }
   
 }
@@ -386,6 +387,10 @@ ul {
 
 @media (min-width: 320px) {
   #navigation-link {
-    padding: 8px 20px 8px 20px;
+    padding: 8px 14px 8px 14px;
+  }
+
+  .border-img {
+    left: 20%;
   }
 }
