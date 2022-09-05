@@ -334,35 +334,46 @@ ul {
 
 @media (max-width: 992px) and (min-width: 768px) {
   .way-to-india .border-img {
-    left: 26%;
+    left: 34%;
   }
 
   .populer-packages .heading-border .border-img {
-    left: 26%;
+    left: 34%;
   }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
   .way-to-india .border-img {
-    left: 26%;
+    left: 30%;
   }
 
   .populer-packages .heading-border .border-img {
-    left: 26%;
+    left: 30%;
   }
 }
 
 @media (max-width: 575px) and (min-width: 475px) {
   .way-to-india .border-img {
-    left: 12%;
+    left: 20%;
   }
 
   .populer-packages .heading-border .border-img {
-    left: 12%;
+    left: 20%;
   }
 }
 
-@media (max-width: 475px) and (min-width: 320px) {
+@media (max-width: 475px) and (min-width: 420px) {
+  .way-to-india .border-img {
+    left: 8%;
+  }
+
+  .populer-packages .heading-border .border-img {
+    left: 8%;
+  }
+}
+
+
+@media (max-width: 419px) and (min-width: 320px) {
   .way-to-india .border-img {
     left: -4%;
   }
