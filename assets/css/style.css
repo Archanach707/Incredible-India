@@ -332,15 +332,44 @@ ul {
 
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) and (min-width: 768px) {
+  .way-to-india .border-img {
+    left: 26%;
+  }
 
-  /* .border-img {
-    left: 32%;
-  } */
-  
-  /* .banner-img {
-    height: 480px;
-  } */
+  .populer-packages .heading-border .border-img {
+    left: 26%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .way-to-india .border-img {
+    left: 26%;
+  }
+
+  .populer-packages .heading-border .border-img {
+    left: 26%;
+  }
+}
+
+@media (max-width: 575px) and (min-width: 475px) {
+  .way-to-india .border-img {
+    left: 12%;
+  }
+
+  .populer-packages .heading-border .border-img {
+    left: 12%;
+  }
+}
+
+@media (max-width: 475px) and (min-width: 320px) {
+  .way-to-india .border-img {
+    left: -4%;
+  }
+
+  .populer-packages .heading-border .border-img {
+    left: -4%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -348,11 +377,33 @@ ul {
     height: 480px;
   }
   
+ 
 }
 
 @media (max-width: 576px) {
   #topHeader {
     display: none;
+  }
+  
+  #logo {
+    font-size: 1.5rem;
+  }
+  
+  .logo-icons {
+    font-size: 30px;
+  }
+
+  .logo-icons, .likes-icons {
+    padding-right: 4px;
+  }
+
+  .way-to-india .sub-heading {
+    font-size: 1.4rem;
+  }
+
+
+  .inner-check-in-out-form {
+    margin: 0px 0px 0px 0px;
   }
 }
 
@@ -364,4 +415,6 @@ ul {
   .border-img {
     left: 20%;
   }
+
+  
 }
