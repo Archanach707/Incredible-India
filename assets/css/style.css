@@ -338,6 +338,13 @@ ul {
   box-shadow: none;
 }
 
+/* About Us */
+.inner-left {
+  background-color: #FFB200;
+  height: 400px;
+}
+
+
 /*************** Media Queary For All devices*********************/
 
 @media (min-width: 1023px) {
