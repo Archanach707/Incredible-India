@@ -339,10 +339,15 @@ ul {
 }
 
 /* About Us */
-.inner-left {
-  background-color: #FFB200;
-  height: 400px;
+.carousel-control-prev.more-about-prev {
+  left: -50px;
 }
+
+.carousel-control-next.more-about-next {
+  left: 30%;
+}
+
+
 
 
 /*************** Media Queary For All devices*********************/
