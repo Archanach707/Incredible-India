@@ -348,12 +348,39 @@ ul {
 }
 
 /* Registration Page */
-.registration {
-  height: 500px;
-  background: #ecec;
+#registration {
+  background-color: #ececec;
+  padding: 80px;
+
 }
 
+.registration-inner {
+  background-image: linear-gradient(to right, #ff5821 , #FFB200);
+  border-radius: 15px;
+  padding: 50px;
+}
 
+#registration #logo {
+  color: #112031;
+}
+
+.sign-up-page {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.register-img {
+  width: 100%;
+  display: block;
+}
+
+.form-control {
+  line-height: 1;
+}
+
+.registration-inner #submit-button {
+  border: none;
+}
 
 /*************** Media Queary For All devices*********************/
 
