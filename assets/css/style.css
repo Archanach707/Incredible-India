@@ -422,10 +422,21 @@ ul {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: auto;
+  margin: 26px 36px;;
   
 }
 
+.packege-head {
+  background-image: linear-gradient(to right, #ff5821 , #FFB200);
+  font-size: 3rem;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.packege-text {
+  padding: 8px;
+  font-size: 1.5rem;
+}
 
 /*************** Media Queary For All devices*********************/
 
