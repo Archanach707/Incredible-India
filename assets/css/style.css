@@ -422,7 +422,7 @@ ul {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin: 26px 36px;;
+  margin: auto;
   
 }
 
@@ -527,6 +527,10 @@ ul {
 
   .inner-check-in-out-form {
     margin: 0px 0px 0px 0px;
+  }
+
+  .adviser {
+    display: none;
   }
 }
 
