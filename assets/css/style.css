@@ -12,6 +12,11 @@ ul {
   margin-bottom: 0;
 }
 
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 0;
+  margin-top: 0.8rem;
+}
 
 /* Top header section */
 .top-header {
@@ -401,6 +406,7 @@ ul {
 }
 
 #login .login-button {
+  background: #fff;
   font-size: 1rem;
   padding: 4.5px 16px;
   font-weight: bold;
@@ -411,6 +417,16 @@ ul {
 #login .user-icons {
   margin-right: 5px;
 }
+
+.who-we-are-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+
+
 /*************** Media Queary For All devices*********************/
 
 @media (min-width: 1023px) {
