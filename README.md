@@ -1,4 +1,4 @@
 # Incredible-India
 Incredible India
 
-url: https://archanach707.github.io/Incredible-India/
+URL: https://archanach707.github.io/Incredible-India/
