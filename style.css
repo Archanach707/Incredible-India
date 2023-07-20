@@ -181,6 +181,16 @@ ul {
 }
 
 .inner-check-in-out-form .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  /* color: #fff;
+  background-color: #112031; */
+
+}
+
+.nav-link.nav-link-button {
+  width: 100%;
+}
+
+.nav-link.nav-link-button.active {
   color: #fff;
   background-color: #112031;
 }
